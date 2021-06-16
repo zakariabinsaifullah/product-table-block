@@ -1,0 +1,31 @@
+.wp-block-pts-eight-row-single-product {
+  text-align: center;
+  width: 100%;
+  span {
+    display: block;
+    padding: 5px;
+  }
+  .badge {
+    text-transform: uppercase;
+    line-height: 30px;
+    display: table-header-group;
+  }
+  .image-wrapper {
+    background: #fff;
+    padding: 10px;
+  }
+  .make-wrapper,
+  .model-wrapper,
+  .image-wrapper,
+  .ledtype-wrapper,
+  .batterytime-wrapper,
+  .brightness-batterytime-wrapper,
+  .kitnumber-wrapper,
+  .dimmable-wrapper,
+  .temparature-wrapper,
+  .mount-wrapper,
+  .power-wrapper,
+  .price-wrapper {
+    border-bottom: 1px solid #ccc;
+  }
+}

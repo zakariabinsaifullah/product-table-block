@@ -1,0 +1,106 @@
+.wp-block-pts-eight-row-based-products-table-mobile-view {
+  display: none;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  // featured headings
+  .featured-headings {
+    text-align: center;
+    span {
+      padding: 5px;
+      font-weight: 500;
+    }
+    .badge {
+      padding: 5px;
+      text-transform: uppercase;
+    }
+    .image-wrapper {
+      padding: 10px;
+    }
+    .make-wrapper,
+    .image-wrapper,
+    .batterytime-wrapper,
+    .kitnumber-wrapper,
+    .temparature-wrapper,
+    .power-wrapper {
+      background: #fff;
+    }
+    .make-wrapper,
+    .model-wrapper,
+    .image-wrapper,
+    .ledtype-wrapper,
+    .batterytime-wrapper,
+    .brightness-batterytime-wrapper,
+    .kitnumber-wrapper,
+    .dimmable-wrapper,
+    .temparature-wrapper,
+    .mount-wrapper,
+    .power-wrapper,
+    .price-wrapper {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+
+  // Common Styles
+  .make-wrapper,
+  .model-wrapper,
+  .image-wrapper,
+  .ledtype-wrapper,
+  .batterytime-wrapper,
+  .brightness-batterytime-wrapper,
+  .kitnumber-wrapper,
+  .dimmable-wrapper,
+  .temparature-wrapper,
+  .mount-wrapper,
+  .power-wrapper,
+  .price-wrapper,
+  .affiliate-btn-wrapper {
+    display: table;
+    width: 100%;
+    span,
+    a {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  .product-image-container img {
+    object-fit: contain;
+    max-height: fit-content;
+    max-width: 140px !important;
+  }
+
+  .table-content {
+    display: flex;
+  }
+
+  .product-image-container {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .affiliate-btn-wrapper {
+    padding: 15px;
+    a {
+      border-radius: 3px;
+      padding: 5px;
+    }
+  }
+}
+
+/*
+* Responsive Codes 
+*/
+@media only screen and (max-width: 600px) {
+  .wp-block-pts-eight-row-based-products-table-mobile-view {
+    display: flex !important;
+    .wp-block-pts-eight-row-single-product {
+      border-right-width: 1px !important;
+    }
+    .product-image-container img {
+      padding: 15px !important;
+      max-width: 100% !important;
+    }
+  }
+}
